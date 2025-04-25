@@ -54,3 +54,7 @@ LINUX/MAC:
 - Usar los comandos tal cual se muestran
 - Asegurar permisos de ejecución en el directorio
 - Ejecutar con: sudo si se presentan problemas de acceso a archivos
+
+Autor
+Irvin Gonzalez
+0900-24-24648
