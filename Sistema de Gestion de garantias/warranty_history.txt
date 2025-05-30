@@ -1,0 +1,226 @@
+=============================================
+Service Tag: nueva1
+Estado actual: Recepción
+
+Historial completo:
+2025-05-08 - [Recepción] Computadora recibida con problema: mucho se calienta
+2025-05-08 - [Recepción] Computadora registrada en el sistema
+=============================================
+
+=============================================
+Service Tag: nueva1
+Estado actual: Reparación
+
+Historial completo:
+2025-05-08 - [Recepción] Computadora recibida con problema: mucho se calienta
+2025-05-08 - [Recepción] Computadora registrada en el sistema
+2025-05-08 - [Recepción] Inspección realizada. Diagnóstico: no tiene pasta termica
+2025-05-08 - [Reparación] Enviada a reparación
+=============================================
+
+=============================================
+Service Tag: nueva1
+Estado actual: Control de Calidad
+
+Historial completo:
+2025-05-08 - [Recepción] Computadora recibida con problema: mucho se calienta
+2025-05-08 - [Recepción] Computadora registrada en el sistema
+2025-05-08 - [Recepción] Inspección realizada. Diagnóstico: no tiene pasta termica
+2025-05-08 - [Reparación] Enviada a reparación
+2025-05-09 - [Reparación] Reparación realizada por jose: se cambi� la pasta termica
+=============================================
+
+=============================================
+Service Tag: nueva1
+Estado actual: Entrega
+
+Historial completo:
+2025-05-08 - [Recepción] Computadora recibida con problema: mucho se calienta
+2025-05-08 - [Recepción] Computadora registrada en el sistema
+2025-05-08 - [Recepción] Inspección realizada. Diagnóstico: no tiene pasta termica
+2025-05-08 - [Reparación] Enviada a reparación
+2025-05-09 - [Reparación] Reparación realizada por jose: se cambi� la pasta termica
+2025-05-09 - [Entrega] Pasó control de calidad. Enviada a entrega
+=============================================
+
+=============================================
+Service Tag: nueva1
+Estado actual: Entrega
+
+Historial completo:
+2025-05-08 - [Recepción] Computadora recibida con problema: mucho se calienta
+2025-05-08 - [Recepción] Computadora registrada en el sistema
+2025-05-08 - [Recepción] Inspección realizada. Diagnóstico: no tiene pasta termica
+2025-05-08 - [Reparación] Enviada a reparación
+2025-05-09 - [Reparación] Reparación realizada por jose: se cambi� la pasta termica
+2025-05-09 - [Entrega] Pasó control de calidad. Enviada a entrega
+2025-05-09 - [Entrega] Computadora entregada al cliente
+=============================================
+
+=============================================
+Service Tag: XXX1
+Estado actual: Recepción
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: PaNTALLA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+=============================================
+
+=============================================
+Service Tag: X1
+Estado actual: Recepción
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: FDSA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+=============================================
+
+=============================================
+Service Tag: XXX1
+Estado actual: Reparación
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: PaNTALLA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: pantalla quemada
+2025-05-24 - [Reparación] Enviada a reparación
+=============================================
+
+=============================================
+Service Tag: XXX1
+Estado actual: Control de Calidad
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: PaNTALLA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: pantalla quemada
+2025-05-24 - [Reparación] Enviada a reparación
+2025-05-24 - [Reparación] Reparación realizada por Irvin: pantalla cambiada
+=============================================
+
+=============================================
+Service Tag: x2
+Estado actual: Recepción
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: fdas
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+=============================================
+
+=============================================
+Service Tag: X1
+Estado actual: Reparación
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: FDSA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: fadf
+2025-05-24 - [Reparación] Enviada a reparación
+=============================================
+
+=============================================
+Service Tag: x2
+Estado actual: Entrega
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: fdas
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: 324
+2025-05-24 - [Entrega] No se puede reparar. Enviada a entrega
+=============================================
+
+=============================================
+Service Tag: x2
+Estado actual: Entrega
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: fdas
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: 324
+2025-05-24 - [Entrega] No se puede reparar. Enviada a entrega
+2025-05-24 - [Entrega] Computadora entregada al cliente
+=============================================
+
+=============================================
+Service Tag: xx2
+Estado actual: Recepción
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: pantallazo azul
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+=============================================
+
+=============================================
+Service Tag: xx2
+Estado actual: Reparación
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: pantallazo azul
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: aplicacion de garantia
+2025-05-24 - [Reparación] Enviada a reparación
+=============================================
+
+=============================================
+Service Tag: X1
+Estado actual: Control de Calidad
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: FDSA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: fadf
+2025-05-24 - [Reparación] Enviada a reparación
+2025-05-24 - [Reparación] Reparación realizada por suartz menendez: cambie la compu entera
+=============================================
+
+=============================================
+Service Tag: xx2
+Estado actual: Control de Calidad
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: pantallazo azul
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: aplicacion de garantia
+2025-05-24 - [Reparación] Enviada a reparación
+2025-05-24 - [Reparación] Reparación realizada por suartz menendez: le di nueva pc
+=============================================
+
+=============================================
+Service Tag: XXX1
+Estado actual: Entrega
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: PaNTALLA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: pantalla quemada
+2025-05-24 - [Reparación] Enviada a reparación
+2025-05-24 - [Reparación] Reparación realizada por Irvin: pantalla cambiada
+2025-05-24 - [Entrega] Pasó control de calidad. Enviada a entrega
+=============================================
+
+=============================================
+Service Tag: X1
+Estado actual: Entrega
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: FDSA
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: fadf
+2025-05-24 - [Reparación] Enviada a reparación
+2025-05-24 - [Reparación] Reparación realizada por suartz menendez: cambie la compu entera
+2025-05-24 - [Entrega] Pasó control de calidad. Enviada a entrega
+=============================================
+
+=============================================
+Service Tag: xx2
+Estado actual: Entrega
+
+Historial completo:
+2025-05-24 - [Recepción] Computadora recibida con problema: pantallazo azul
+2025-05-24 - [Recepción] Computadora registrada en el sistema
+2025-05-24 - [Recepción] Inspección realizada. Diagnóstico: aplicacion de garantia
+2025-05-24 - [Reparación] Enviada a reparación
+2025-05-24 - [Reparación] Reparación realizada por suartz menendez: le di nueva pc
+2025-05-24 - [Entrega] Pasó control de calidad. Enviada a entrega
+=============================================
+
