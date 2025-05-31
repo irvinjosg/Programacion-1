@@ -224,3 +224,90 @@ Historial completo:
 2025-05-24 - [Entrega] Pasó control de calidad. Enviada a entrega
 =============================================
 
+=============================================
+SERVICE TAG: 1
+ESTADO ACTUAL: RECEPCIÓN
+
+HISTORIAL COMPLETO:
+FECHA      | CONTENIDO                                    | EQUIPO
+-----------|----------------------------------------------|----------
+30/05/2025 | COMPUTADORA RECIBIDA CON PROBLEMA: PANTAL... | RECEPCIÓN
+30/05/2025 | COMPUTADORA REGISTRADA EN EL SISTEMA         | RECEPCIÓN
+=============================================
+
+=============================================
+SERVICE TAG: 2
+ESTADO ACTUAL: RECEPCIÓN
+
+HISTORIAL COMPLETO:
+FECHA      | CONTENIDO                                    | EQUIPO
+-----------|----------------------------------------------|----------
+30/05/2025 | COMPUTADORA RECIBIDA CON PROBLEMA: 234       | RECEPCIÓN
+30/05/2025 | COMPUTADORA REGISTRADA EN EL SISTEMA         | RECEPCIÓN
+=============================================
+
+=============================================
+SERVICE TAG: 3
+ESTADO ACTUAL: RECEPCIÓN
+
+HISTORIAL COMPLETO:
+FECHA      | CONTENIDO                                    | EQUIPO
+-----------|----------------------------------------------|----------
+30/05/2025 | COMPUTADORA RECIBIDA CON PROBLEMA: AS        | RECEPCIÓN
+30/05/2025 | COMPUTADORA REGISTRADA EN EL SISTEMA         | RECEPCIÓN
+=============================================
+
+=============================================
+SERVICE TAG: 3
+ESTADO ACTUAL: REPARACIÓN
+
+HISTORIAL COMPLETO:
+FECHA      | CONTENIDO                                    | EQUIPO
+-----------|----------------------------------------------|----------
+30/05/2025 | COMPUTADORA RECIBIDA CON PROBLEMA: AS        | RECEPCIÓN
+30/05/2025 | COMPUTADORA REGISTRADA EN EL SISTEMA         | RECEPCIÓN
+30/05/2025 | INSPECCIÓN REALIZADA. DIAGNÓSTICO: NO TIE... | RECEPCIÓN
+30/05/2025 | ENVIADA A REPARACIÓN                         | REPARACIÓN
+=============================================
+
+=============================================
+SERVICE TAG: 3
+ESTADO ACTUAL: CONTROL DE CALIDAD
+
+HISTORIAL COMPLETO:
+FECHA      | CONTENIDO                                    | EQUIPO
+-----------|----------------------------------------------|----------
+30/05/2025 | COMPUTADORA RECIBIDA CON PROBLEMA: AS        | RECEPCIÓN
+30/05/2025 | COMPUTADORA REGISTRADA EN EL SISTEMA         | RECEPCIÓN
+30/05/2025 | INSPECCIÓN REALIZADA. DIAGNÓSTICO: NO TIE... | RECEPCIÓN
+30/05/2025 | ENVIADA A REPARACIÓN                         | REPARACIÓN
+30/05/2025 | REPARACIÓN REALIZADA POR 3: LIMPIEZA DE P... | REPARACIÓN
+=============================================
+
+=============================================
+SERVICE TAG: 2
+ESTADO ACTUAL: REPARACIÓN
+
+HISTORIAL COMPLETO:
+FECHA      | CONTENIDO                                    | EQUIPO
+-----------|----------------------------------------------|----------
+30/05/2025 | COMPUTADORA RECIBIDA CON PROBLEMA: 234       | RECEPCIÓN
+30/05/2025 | COMPUTADORA REGISTRADA EN EL SISTEMA         | RECEPCIÓN
+30/05/2025 | INSPECCIÓN REALIZADA. DIAGNÓSTICO: POCA RAM  | RECEPCIÓN
+30/05/2025 | ENVIADA A REPARACIÓN                         | REPARACIÓN
+=============================================
+
+=============================================
+SERVICE TAG: 2
+ESTADO ACTUAL: CONTROL DE CALIDAD
+
+HISTORIAL COMPLETO:
+FECHA      | CONTENIDO                                    | EQUIPO
+-----------|----------------------------------------------|----------
+30/05/2025 | COMPUTADORA RECIBIDA CON PROBLEMA: 234       | RECEPCIÓN
+30/05/2025 | COMPUTADORA REGISTRADA EN EL SISTEMA         | RECEPCIÓN
+30/05/2025 | INSPECCIÓN REALIZADA. DIAGNÓSTICO: POCA RAM  | RECEPCIÓN
+30/05/2025 | ENVIADA A REPARACIÓN                         | REPARACIÓN
+30/05/2025 | REPARACIÓN REALIZADA POR BYRON: SE AGREG�... | REPARACIÓN
+=============================================
+

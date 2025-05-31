@@ -1,5 +1,6 @@
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,29 +19,47 @@ public class Computer implements Serializable {
     
     public Computer(String serviceTag, String problemDescription, LocalDate receptionDate,
                     String clientName, String clientEmail, String clientPhone) {
-        this.serviceTag = serviceTag;
-        this.problemDescription = problemDescription;
+        this.serviceTag = serviceTag.toUpperCase();
+        this.problemDescription = problemDescription.toUpperCase();
         this.receptionDate = receptionDate;
-        this.clientName = clientName;
-        this.clientEmail = clientEmail;
+        this.clientName = clientName.toUpperCase();
+        this.clientEmail = clientEmail.toLowerCase(); // Email mantiene formato estándar
         this.clientPhone = clientPhone;
         this.history = new ArrayList<>();
         this.currentStatus = ComputerStatus.RECEPTION;
         
         // Add first history record
-        addHistoryRecord("Computadora recibida con problema: " + problemDescription);
+        addHistoryRecord("COMPUTADORA RECIBIDA CON PROBLEMA: " + this.problemDescription);
     }
     
     public void addHistoryRecord(String description) {
-        history.add(new HistoryRecord(LocalDate.now(), description, currentStatus));
+        history.add(new HistoryRecord(LocalDate.now(), description.toUpperCase(), currentStatus));
     }
     
     public String getServiceTag() {
         return serviceTag;
     }
+    
     public String getClientName() {
-        return serviceTag;
-    }    
+        return clientName;
+    }
+    
+    public String getProblemDescription() {
+        return problemDescription;
+    }
+    
+    public LocalDate getReceptionDate() {
+        return receptionDate;
+    }
+    
+    public String getClientEmail() {
+        return clientEmail;
+    }
+    
+    public String getClientPhone() {
+        return clientPhone;
+    }
+    
     public ComputerStatus getCurrentStatus() {
         return currentStatus;
     }
@@ -54,7 +73,7 @@ public class Computer implements Serializable {
     }
     
     public void setDiagnosis(String diagnosis) {
-        this.diagnosis = diagnosis;
+        this.diagnosis = diagnosis.toUpperCase();
     }
     
     public String getRepairDetails() {
@@ -62,7 +81,7 @@ public class Computer implements Serializable {
     }
     
     public void setRepairDetails(String repairDetails) {
-        this.repairDetails = repairDetails;
+        this.repairDetails = repairDetails.toUpperCase();
     }
     
     public String getTechnicianName() {
@@ -70,7 +89,7 @@ public class Computer implements Serializable {
     }
     
     public void setTechnicianName(String technicianName) {
-        this.technicianName = technicianName;
+        this.technicianName = technicianName.toUpperCase();
     }
     
     public List<HistoryRecord> getHistory() {
@@ -79,12 +98,13 @@ public class Computer implements Serializable {
     
     @Override
     public String toString() {
-        return "Service Tag: " + serviceTag + 
-               "\nCliente: " + clientName +
-               "\nEstado actual: " + currentStatus +
-               "\nFecha de recepción: " + receptionDate +
-               "\nDescripción del problema: " + problemDescription +
-               "\nContacto: " + clientEmail + " / " + clientPhone;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        return "SERVICE TAG: " + serviceTag + 
+               "\nCLIENTE: " + clientName +
+               "\nESTADO ACTUAL: " + currentStatus +
+               "\nFECHA DE RECEPCIÓN: " + receptionDate.format(formatter) +
+               "\nDESCRIPCIÓN DEL PROBLEMA: " + problemDescription +
+               "\nCONTACTO: " + clientEmail + " / " + clientPhone;
     }
     
     public String getFullDetails() {
@@ -92,17 +112,19 @@ public class Computer implements Serializable {
         details.append(toString()).append("\n");
         
         if (diagnosis != null && !diagnosis.isEmpty()) {
-            details.append("Diagnóstico: ").append(diagnosis).append("\n");
+            details.append("DIAGNÓSTICO: ").append(diagnosis).append("\n");
         }
         
         if (repairDetails != null && !repairDetails.isEmpty()) {
-            details.append("Detalles de reparación: ").append(repairDetails).append("\n");
-            details.append("Técnico: ").append(technicianName).append("\n");
+            details.append("DETALLES DE REPARACIÓN: ").append(repairDetails).append("\n");
+            details.append("TÉCNICO: ").append(technicianName).append("\n");
         }
         
-        details.append("\nHistorial:\n");
+        details.append("\nHISTORIAL:\n");
+        details.append("FECHA      | CONTENIDO                                    | EQUIPO\n");
+        details.append("-----------|----------------------------------------------|----------\n");
         for (HistoryRecord record : history) {
-            details.append(record).append("\n");
+            details.append(record.getFormattedRecord()).append("\n");
         }
         
         return details.toString();
@@ -110,11 +132,11 @@ public class Computer implements Serializable {
 }
 
 enum ComputerStatus {
-    RECEPTION("Recepción"),
-    INSPECTION("Inspección"),
-    REPAIR("Reparación"),
-    QUALITY_CONTROL("Control de Calidad"),
-    DELIVERY("Entrega");
+    RECEPTION("RECEPCIÓN"),
+    INSPECTION("INSPECCIÓN"),
+    REPAIR("REPARACIÓN"),
+    QUALITY_CONTROL("CONTROL DE CALIDAD"),
+    DELIVERY("ENTREGA");
     
     private String displayName;
     
@@ -139,8 +161,16 @@ class HistoryRecord implements Serializable {
         this.status = status;
     }
     
+    public String getFormattedRecord() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        String dateStr = date.format(formatter);
+        String content = description.length() > 44 ? description.substring(0, 41) + "..." : description;
+        return String.format("%-10s | %-44s | %-8s", dateStr, content, status.toString());
+    }
+    
     @Override
     public String toString() {
-        return date + " - [" + status + "] " + description;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        return date.format(formatter) + " - [" + status + "] " + description;
     }
 }
