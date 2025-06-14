@@ -1,34 +1,28 @@
 import java.util.Scanner;
-import java.io.UnsupportedEncodingException;
 
 public class ReproductorMusica {
     private static Scanner scanner = new Scanner(System.in);
     private static GestorPlaylists gestorPlaylists = new GestorPlaylists();
     
     public static void main(String[] args) {
-        // Configurar UTF-8 para tildes
-        try {
-            System.setProperty("file.encoding", "UTF-8");
-            System.setProperty("console.encoding", "UTF-8");
-        } catch (Exception e) {
-            // Continuar sin UTF-8 si hay problemas
-        }
+        // Configurar UTF-8 de forma más simple
+        System.setProperty("file.encoding", "UTF-8");
         
         mostrarMenuPrincipal();
     }
     
     public static void limpiarPantalla() {
+        // Método más compatible - imprimir líneas vacías
+        for (int i = 0; i < 50; i++) {
+            System.out.println();
+        }
+        
+        // Alternativamente, usar códigos ANSI si están disponibles
         try {
-            if (System.getProperty("os.name").contains("Windows")) {
-                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-            } else {
-                new ProcessBuilder("clear").inheritIO().start().waitFor();
-            }
+            System.out.print("\033[2J\033[H");
+            System.out.flush();
         } catch (Exception e) {
-            // Si no se puede limpiar, imprimir líneas vacías
-            for (int i = 0; i < 50; i++) {
-                System.out.println();
-            }
+            // Ignorar si no funciona
         }
     }
     
