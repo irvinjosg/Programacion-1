@@ -58,4 +58,4 @@ public class Playlist {
                          canciones.getTamaño(), 
                          canciones.getDuracionTotalFormateada());
     }
-}
+} 
